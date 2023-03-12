@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+html {
+    width: 100%;
+}
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+.mein {
+    height: 70px;
+    box-shadow: 0 3px 10px 1px #eee;
+    display: flex;
+    align-items: center;
+}
+.main-box {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 30px;
+}
+.mein-btn {
+    background: #BBF330;
+    border-radius: 30px;
+    width: 98px;
+    height: 32px;
+    border: none;
+    font-weight: 600;
+}
+.main-logo {
+    margin-left: 16px;
+}
+.menu {
+    display:flex;
+    flex-direction: row;
+    gap: 28px;
+}
+
+.menu-items a {
+    text-decoration: none;
+}
+.hero {
+    display: flex;
+    padding: 27px 16px;
+}
+.hero-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+.hero-title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+}
+.hero-text {
+    margin-bottom: 46px;
+    width: 500px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+.hero-box-img {
+    border: 14px solid #FFE550;
+    width: 560px;
+    height: 560px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-img {
+    border-radius: 250px;
+}
+.special-offers {
+    background: #FFE550;
+    padding: 100px 16px;
+    display: flex;
+}
+.offers-img-box {
+    width: 560px;
+    height: 560px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    background: url(../images/appleimg.jpg)
+}
+.offers-img {
+    border-radius: 262px;
+}
+.offers-box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.offers-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+.offers-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    width: 500px;
+    margin-bottom: 40px;
+}
+.offers {
+    display: flex;
+    margin-bottom: 60px;
+    gap: 60px;
+}
+.offer-btn {
+    background: #fff;
+    border: 2px solid #7EB101;
+}
+.favorites-dishes {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 16px;
+    align-items: center;
+    
+}
+.dishes-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.dishes-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 49px;
+    margin-bottom: 20px;
+}
+.dishes-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 36px;
+}
+.comments {
+    background: #FFE550;
+    padding: 100px 16px;
+}
+.comments-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 49px;
+    margin-bottom: 20px;
+}
+.comments-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 32px;
+}
+.comments-list {
+    display: flex;
+    flex-direction: row;
+    gap: 140px
+}
+.comment-items {
+    background: #fff;
+    border-radius: 0 40px 40px 40px;
+    padding: 14px;
+}
+.comment-stars {
+    margin-bottom: 28px;
+}
+.comment-text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+.user-commented {
+    display: flex;
+    gap: 16px;
+    padding: 4px;
+    align-items: center;
+}
+.user-name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+}
+.user-role {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+.commented-line {
+    border: 1px solid #7EB101;
+    height: 52px;
+}
